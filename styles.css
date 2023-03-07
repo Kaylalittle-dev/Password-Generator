@@ -1,0 +1,87 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rebeccapurple;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    min-height: 100vh;
+}
+
+.pw-container{
+    background-color: rgb(46, 12, 80);
+    box-shadow: 2px 2px 10px rgb(255, 255, 255);
+    min-width: 400px;
+}
+
+.pw-header{
+    padding: 1rem;
+}
+
+h2{
+    display: flex;
+    justify-content: center;
+}
+
+.pw{
+    background-color: rgb(69, 28, 109);
+    display: flex;
+    font-size: 1.5rem;
+    align-items: center;
+    height: 70px;
+    width: 100%;
+    position: relative;
+    padding: 1rem;
+    overflow: auto;
+}
+
+#copy{
+    background-color: white;
+    border: none;
+    color: rgb(29, 2, 56);
+    cursor: pointer;
+    font-family: inherit;
+    font-weight: bold;
+    padding: .25rem;
+    position: absolute;
+    top: 0;
+    right:0;
+    transform: translate(0, 20%);
+    transition: opacity 0.2s ease, transform 0.2s ease;
+    height: 50px;
+    width: 45px;
+}
+
+#copy:hover{
+    opacity: 1;
+    transform: translate(0, 0%);
+}
+
+.pw-body{
+    padding: 0 1rem 1rem;
+}
+
+.form-control{
+    color: #eee;
+    display: flex;
+    justify-content: space-between;
+    margin: .75rem 0;
+}
+
+.generate{
+    background-color: #e4ba30;
+    border: none;
+    color: rebeccapurple;
+    cursor: pointer;
+    display: block;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: .75rem;
+    margin-top: 1rem;
+    width: 100%;
+}
